@@ -1,19 +1,19 @@
 {
   "stats": {
     "suites": 3,
-    "tests": 2,
-    "passes": 2,
+    "tests": 4,
+    "passes": 4,
     "pending": 0,
-    "failures": 2,
-    "start": "2022-07-03T03:01:08.200Z",
-    "end": "2022-07-03T03:01:08.571Z",
-    "duration": 371
+    "failures": 1,
+    "start": "2022-07-03T03:02:32.907Z",
+    "end": "2022-07-03T03:02:33.458Z",
+    "duration": 551
   },
   "tests": [
     {
       "title": "has a class of cat",
       "fullTitle": "cat has a class of cat",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -23,20 +23,24 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {}
+    },
+    {
+      "title": "has a class of dog",
+      "fullTitle": "dog has a class of dog",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "dog.speak() returns '[name] says woof!'",
+      "fullTitle": "dog dog.speak() returns '[name] says woof!'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
     }
   ],
   "pending": [],
   "failures": [
-    {
-      "title": "\"before each\" hook for \"has a class of dog\"",
-      "fullTitle": "dog \"before each\" hook for \"has a class of dog\"",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: Dog is not defined\n    at Context.<anonymous> (test/indexTest.js:17:5)\n    at process.processImmediate (node:internal/timers:471:21)",
-        "message": "Dog is not defined"
-      }
-    },
     {
       "title": "\"before each\" hook for \"has a class of Bird\"",
       "fullTitle": "bird \"before each\" hook for \"has a class of Bird\"",
@@ -52,13 +56,27 @@
     {
       "title": "has a class of cat",
       "fullTitle": "cat has a class of cat",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "cat.speak() returns '[name]' says meow!",
       "fullTitle": "cat cat.speak() returns '[name]' says meow!",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a class of dog",
+      "fullTitle": "dog has a class of dog",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "dog.speak() returns '[name] says woof!'",
+      "fullTitle": "dog dog.speak() returns '[name] says woof!'",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
