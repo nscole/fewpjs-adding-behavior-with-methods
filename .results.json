@@ -1,19 +1,19 @@
 {
   "stats": {
     "suites": 3,
-    "tests": 4,
-    "passes": 4,
+    "tests": 7,
+    "passes": 7,
     "pending": 0,
-    "failures": 1,
-    "start": "2022-07-03T03:02:32.907Z",
-    "end": "2022-07-03T03:02:33.458Z",
-    "duration": 551
+    "failures": 0,
+    "start": "2022-07-03T03:05:22.272Z",
+    "end": "2022-07-03T03:05:22.623Z",
+    "duration": 351
   },
   "tests": [
     {
       "title": "has a class of cat",
       "fullTitle": "cat has a class of cat",
-      "duration": 0,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
@@ -34,29 +34,39 @@
     {
       "title": "dog.speak() returns '[name] says woof!'",
       "fullTitle": "dog dog.speak() returns '[name] says woof!'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a class of Bird",
+      "fullTitle": "bird has a class of Bird",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "bird.speak() returns 'It's me! [name], the parrot!'",
+      "fullTitle": "bird bird.speak() returns 'It's me! [name], the parrot!'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "bird2.speak() returns 'Squawk!'",
+      "fullTitle": "bird bird2.speak() returns 'Squawk!'",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "\"before each\" hook for \"has a class of Bird\"",
-      "fullTitle": "bird \"before each\" hook for \"has a class of Bird\"",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: Bird is not defined\n    at Context.<anonymous> (test/indexTest.js:29:5)\n    at process.processImmediate (node:internal/timers:471:21)",
-        "message": "Bird is not defined"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "has a class of cat",
       "fullTitle": "cat has a class of cat",
-      "duration": 0,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
@@ -77,6 +87,27 @@
     {
       "title": "dog.speak() returns '[name] says woof!'",
       "fullTitle": "dog dog.speak() returns '[name] says woof!'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a class of Bird",
+      "fullTitle": "bird has a class of Bird",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "bird.speak() returns 'It's me! [name], the parrot!'",
+      "fullTitle": "bird bird.speak() returns 'It's me! [name], the parrot!'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "bird2.speak() returns 'Squawk!'",
+      "fullTitle": "bird bird2.speak() returns 'Squawk!'",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
